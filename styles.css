@@ -13,7 +13,7 @@ body {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #e60000;
+    background-color: #d20505;
     color: white;
 }
 
@@ -81,7 +81,7 @@ h3 {
 
 button {
     padding: 10px 20px;
-    background-color: #0073e6;
+    background-color: #0167cd;
     color: white;
     border: none;
     border-radius: 3px;
@@ -90,7 +90,7 @@ button {
 }
 
 button:hover {
-    background-color: #0055a4;
+    background-color: #014a8e;
 }
 
 footer {
