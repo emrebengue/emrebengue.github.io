@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>YouTube Survey</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the YouTube Survey!</h1>
+    </header>
+
+    <div class="container">
+        <h2>You can click the button to navigate to YouTube</h2>
+        <a href="https://www.youtube.com/" target="_blank" class="youtube-link">
+            <img src="youtube.jpeg" alt="YouTube">
+        </a>
+    </div>
+
+    <form class="survey-form" action="">
+        <div class="form-group">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+        </div>
+
+        <div class="form-group">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+        </div>
+
+        <div class="form-group">
+            <h3>What browser do you use to watch YouTube?</h3>
+            <label for="chrome">
+                <input type="checkbox" id="chrome" name="browser" value="Chrome"> Chrome
+            </label>
+            <label for="firefox">
+                <input type="checkbox" id="firefox" name="browser" value="Firefox"> Firefox
+            </label>
+            <label for="Edge">
+                <input type="checkbox" id="Edge" name="browser" value="Edge"> Edge
+            </label>
+        </div>
+
+        <div class="form-group">
+            <h3>Do you like recommended videos?</h3>
+            <label for="yes">
+                <input type="radio" id="yes" name="like-recommended" value="yes"> Yes
+            </label>
+            <label for="no">
+                <input type="radio" id="no" name="like-recommended" value="no"> No
+            </label>
+        </div>
+
+        <div class="form-group">
+            <h3>Who is your favorite YouTuber?</h3>
+            <select class="youtuber" name="favorite-youtuber">
+                <option value="" disabled>Select one...</option>
+                <option value="Pewdiepie">Pewdiepie</option>
+                <option value="Mr Beast">Mr Beast</option>
+                <option value="Oha Diyorum">Oha Diyorum</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <h3>Comments:</h3>
+            <textarea class="comment-section" name="comments"></textarea>
+        </div>
+
+        <div class="form-group">
+            <button id="submitBtn" type="button">Submit the survey</button>
+        </div>
+    </form>
+
+    <footer>
+        <p>Site created by Emre Bengu and Emirali Gungor</p>
+    </footer>
+</body>
+</html>
